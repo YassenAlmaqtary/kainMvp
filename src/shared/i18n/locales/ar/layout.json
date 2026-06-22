@@ -1,0 +1,32 @@
+{
+  "footer": {
+    "vision2030": "متوافق مع رؤية 2030",
+    "supportTitle": "دعم فني 24/7",
+    "supportDescription": "فريق متخصص لخدمتك دائماً"
+  },
+  "nav": {
+    "dashboard": "لوحة التحكم",
+    "pos": "نقاط البيع",
+    "logout": "تسجيل الخروج"
+  },
+  "pages": {
+    "login": {
+      "title": "كيان - تسجيل الدخول | KAYAN Login"
+    },
+    "dashboard": {
+      "title": "كيان - لوحة التحكم | KAYAN Dashboard"
+    },
+    "pos": {
+      "title": "كيان - نقاط البيع | KAYAN POS"
+    },
+    "reports": {
+      "title": "كيان - التقارير | KAYAN Reports"
+    },
+    "inventory": {
+      "title": "كيان - المخزون | KAYAN Inventory"
+    },
+    "settings": {
+      "title": "كيان - الإعدادات | KAYAN Settings"
+    }
+  }
+}

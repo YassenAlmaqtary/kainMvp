@@ -1,0 +1,118 @@
+{
+  "header": {
+    "company": "الشركة",
+    "companyValue": "مؤسسة كيان للتجارة",
+    "branch": "الفرع",
+    "branchValue": "فرع جدة - الروابي",
+    "device": "الجهاز",
+    "deviceValue": "POS-01",
+    "user": "المستخدم",
+    "userValue": "أحمد محمد",
+    "batch": "الباتش",
+    "batchValue": "458",
+    "menu": "القائمة"
+  },
+  "status": {
+    "zatca": "ZATCA",
+    "connection": "الاتصال",
+    "printer": "الطابعة",
+    "scale": "الميزان",
+    "cashDrawer": "درج النقدية",
+    "scanner": "الماسح الضوئي",
+    "connected": "متصل",
+    "open": "مفتوح"
+  },
+  "categories": {
+    "title": "الأقسام",
+    "all": "الكل",
+    "drinks": "المشروبات",
+    "dryFood": "الأغذية الجافة",
+    "fresh": "المنتجات الطازجة",
+    "dairy": "الألبان والجبن",
+    "frozen": "المجمدات",
+    "cleaning": "المنظفات",
+    "personalCare": "العناية الشخصية",
+    "household": "أدوات منزلية",
+    "more": "المزيد"
+  },
+  "search": {
+    "placeholder": "امسح الباركود أو ابحث عن منتج...",
+    "quickProduct": "منتج سريع"
+  },
+  "catalog": {
+    "empty": "لا توجد منتجات متاحة",
+    "results": "{{count}} نتيجة"
+  },
+  "cart": {
+    "title": "سلة المبيعات ( {{count}} أصناف )",
+    "columns": {
+      "index": "#",
+      "item": "الصنف",
+      "quantity": "الكمية",
+      "unit": "الوحدة",
+      "price": "السعر",
+      "discount": "الخصم",
+      "total": "الإجمالي"
+    },
+    "itemCode": "رقم الصنف: {{code}}",
+    "weight": "وزن {{value}} كجم",
+    "units": {
+      "piece": "حبة",
+      "kg": "كجم"
+    },
+    "summary": "عدد الأصناف: {{items}} | إجمالي الكمية: {{quantity}}",
+    "clear": "مسح السلة",
+    "empty": "لا توجد أصناف في السلة",
+    "increase": "زيادة الكمية",
+    "decrease": "تقليل الكمية"
+  },
+  "products": {
+    "rice": "أرز أبو بنت 5 كيلو",
+    "sugar": "سكر الأسرة 5 كيلو",
+    "banana": "موز كيلو"
+  },
+  "quickActions": {
+    "coupon": "كوبون",
+    "reprint": "إعادة طباعة",
+    "changePrice": "تغيير سعر",
+    "discount": "خصم",
+    "customer": "عميل",
+    "return": "مرتجع",
+    "recall": "استدعاء"
+  },
+  "quickCategories": {
+    "fastItems": "أصناف سريعة",
+    "noBarcode": "بدون باركود",
+    "meat": "لحوم",
+    "bakery": "مخبوزات",
+    "fruits": "فواكه",
+    "vegetables": "خضار",
+    "eggs": "بيض"
+  },
+  "invoice": {
+    "title": "ملخص الفاتورة",
+    "subtotal": "إجمالي الأصناف",
+    "discounts": "إجمالي الخصومات",
+    "tax": "الضريبة (15%)",
+    "grandTotal": "الإجمالي شامل الضريبة",
+    "paid": "المدفوع",
+    "remaining": "المتبقي",
+    "currency": "SAR",
+    "pay": "الدفع",
+    "paymentSuccess": "تمت عملية الدفع بنجاح",
+    "paymentInsufficient": "المبلغ المدفوع أقل من الإجمالي",
+    "paymentEmpty": "السلة فارغة"
+  },
+  "keypad": {
+    "backspace": "مسح",
+    "clear": "مسح الكل",
+    "multiply": "ضرب",
+    "sound": "صوت"
+  },
+  "footer": {
+    "help": "طلب مساعدة",
+    "notes": "ملاحظات",
+    "openDrawer": "فتح درج نقدية",
+    "power": "إيقاف"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "brand": {
+    "title": "Kayan",
+    "subtitle": "Kayan ERP"
+  },
+  "nav": {
+    "decision": "Decision Board",
+    "sales": "Sales",
+    "purchases": "Purchases",
+    "inventory": "Inventory",
+    "finance": "Finance & Accounting",
+    "pos": "Point of Sale",
+    "crm": "Customers (CRM)",
+    "hr": "Human Resources",
+    "reports": "Reports",
+    "approvals": "Approvals",
+    "settings": "Settings",
+    "collapse": "Collapse menu"
+  },
+  "topBar": {
+    "company": "Kayan Trading Co.",
+    "changeCompany": "Change company",
+    "branch": "Jeddah Main Branch",
+    "changeBranch": "Change branch",
+    "fiscalYear": "Fiscal Year 2026",
+    "active": "Active",
+    "role": "Role",
+    "roleValue": "Finance Manager",
+    "language": "Language",
+    "searchPlaceholder": "Search customer, invoice, item, report, entry...",
+    "searchShortcut": "Ctrl + K",
+    "favorites": "Favorites",
+    "notifications": "Notifications",
+    "messages": "Messages",
+    "loggingOut": "Signing out..."
+  },
+  "hero": {
+    "greeting": "Good morning {{name}} 👋",
+    "datetime": "Today {{date}} - {{time}}",
+    "location": "Kayan Trading Co. - Jeddah Main Branch"
+  },
+  "weather": {
+    "city": "Jeddah",
+    "condition": "Sunny",
+    "humidity": "Humidity {{value}}%",
+    "wind": "Wind {{value}} km/h"
+  },
+  "decisions": {
+    "title": "Decision Center",
+    "viewAll": "View all",
+    "zatca": "ZATCA errors",
+    "unposted": "Unposted entries",
+    "syncFailed": "Sync failed",
+    "negativeStock": "Negative stock",
+    "lowStock": "Low stock items",
+    "pendingApproval": "Pending approval",
+    "fixNow": "Fix now",
+    "review": "Review",
+    "resync": "Resync",
+    "handle": "Handle",
+    "createPo": "Create PO",
+    "reviewNow": "Review now"
+  },
+  "metrics": {
+    "currency": "SAR",
+    "revenueToday": "Total revenue (today)",
+    "revenueMonth": "Total revenue (month)",
+    "cashPosition": "Cash position",
+    "receivables": "Receivables",
+    "payables": "Payables",
+    "netProfit": "Net profit (month)"
+  },
+  "tasks": {
+    "title": "My tasks today",
+    "viewAll": "View all",
+    "viewAllTasks": "View all tasks",
+    "approvePo": "Approve purchase order",
+    "approvePoRef": "#PO-2026-1548",
+    "inventoryReview": "Warehouse inventory review",
+    "inventoryReviewRef": "Main warehouse",
+    "followClient": "Follow up overdue client",
+    "followClientRef": "Al-Noor Trading Co.",
+    "reviewInvoice": "Review pending invoice",
+    "reviewInvoiceRef": "(INV-2026-01025)",
+    "time1": "10:30 AM",
+    "time2": "11:00 AM",
+    "time3": "12:00 PM",
+    "time4": "01:30 PM"
+  },
+  "activity": {
+    "title": "Recent activity",
+    "viewAll": "View all",
+    "payment": "Collected <bold>SAR 5,200</bold> from Trade Co. client",
+    "poApproved": "Purchase order <bold>#PO-2026-1548</bold> approved",
+    "newCustomer": "New customer Future Trading Co. created",
+    "time1": "10:45 AM",
+    "time2": "10:20 AM",
+    "time3": "09:15 AM"
+  },
+  "miniStats": {
+    "openOrders": "Open orders",
+    "pendingShipments": "Pending shipments",
+    "pendingInventory": "Inventory pending approval",
+    "openReturns": "Open returns"
+  },
+  "quickActions": {
+    "title": "Quick actions",
+    "customize": "Customize",
+    "viewAll": "View all actions",
+    "supplier": "New supplier",
+    "customer": "New customer",
+    "journal": "Journal entry",
+    "purchaseOrder": "Purchase order",
+    "invoice": "New invoice",
+    "collection": "Collection"
+  },
+  "common": {
+    "viewAll": "View all"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "hero": {
+    "ariaLabel": "About KAYAN",
+    "headline": "Manage your business with confidence and intelligence",
+    "description": "An integrated platform to manage your enterprise, helping you grow and make better decisions every day.",
+    "copyright": "© {{year}} KAYAN. All rights reserved.",
+    "securityTitle": "Advanced security & protection",
+    "securityDescription": "Enterprise-grade data protection"
+  },
+  "features": {
+    "reports": {
+      "title": "Smart reports",
+      "description": "Accurate insights for better decisions"
+    },
+    "security": {
+      "title": "Advanced security",
+      "description": "Protect your data to the highest standards"
+    },
+    "performance": {
+      "title": "Fast performance",
+      "description": "A seamless experience without interruption"
+    },
+    "backup": {
+      "title": "Your data is safe",
+      "description": "Automatic and secure backups"
+    }
+  },
+  "images": {
+    "dashboardAlt": "Dashboard preview",
+    "mobileAlt": "Mobile app preview"
+  }
+}

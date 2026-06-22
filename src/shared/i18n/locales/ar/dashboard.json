@@ -1,0 +1,120 @@
+{
+  "brand": {
+    "title": "كيان",
+    "subtitle": "Kayan ERP"
+  },
+  "nav": {
+    "decision": "لوحة القرار",
+    "sales": "المبيعات",
+    "purchases": "المشتريات",
+    "inventory": "المخزون",
+    "finance": "المالية والمحاسبة",
+    "pos": "نقاط البيع",
+    "crm": "العملاء (CRM)",
+    "hr": "الموارد البشرية",
+    "reports": "التقارير",
+    "approvals": "الموافقات",
+    "settings": "الإعدادات",
+    "collapse": "طي القائمة"
+  },
+  "topBar": {
+    "company": "شركة كيان التجارية",
+    "changeCompany": "تغيير الشركة",
+    "branch": "فرع جدة الرئيسي",
+    "changeBranch": "تغيير الفرع",
+    "fiscalYear": "السنة المالية 2026",
+    "active": "نشط",
+    "role": "الدور",
+    "roleValue": "مدير مالي",
+    "language": "اللغة",
+    "searchPlaceholder": "ابحث عن عميل، فاتورة، صنف، تقرير، قيد...",
+    "searchShortcut": "Ctrl + K",
+    "favorites": "المفضلة",
+    "notifications": "الإشعارات",
+    "messages": "الرسائل",
+    "loggingOut": "جاري تسجيل الخروج..."
+  },
+  "hero": {
+    "greeting": "صباح الخير {{name}} 👋",
+    "datetime": "اليوم {{date}} - {{time}}",
+    "location": "شركة كيان التجارية - فرع جدة الرئيسي"
+  },
+  "weather": {
+    "city": "جدة",
+    "condition": "مشمس",
+    "humidity": "الرطوبة {{value}}%",
+    "wind": "الرياح {{value}} كم/س"
+  },
+  "decisions": {
+    "title": "مركز القرارات",
+    "viewAll": "عرض الكل",
+    "zatca": "أخطاء ZATCA",
+    "unposted": "عمليات غير مرحلة",
+    "syncFailed": "مزامنة فاشلة",
+    "negativeStock": "مخزون سالب",
+    "lowStock": "أصناف منخفضة",
+    "pendingApproval": "موافقة معلقة",
+    "fixNow": "إصلاح الآن",
+    "review": "مراجعة",
+    "resync": "إعادة المزامنة",
+    "handle": "معالجة",
+    "createPo": "إنشاء طلب شراء",
+    "reviewNow": "مراجعة الآن"
+  },
+  "metrics": {
+    "currency": "ريال",
+    "revenueToday": "إجمالي الإيرادات (اليوم)",
+    "revenueMonth": "إجمالي الإيرادات (الشهر)",
+    "cashPosition": "المركز النقدي",
+    "receivables": "الذمم المدينة",
+    "payables": "الذمم الدائنة",
+    "netProfit": "صافي الربح (الشهر)"
+  },
+  "tasks": {
+    "title": "مهامي اليوم",
+    "viewAll": "عرض الكل",
+    "viewAllTasks": "عرض جميع المهام",
+    "approvePo": "اعتماد طلب شراء",
+    "approvePoRef": "#PO-2026-1548",
+    "inventoryReview": "مراجعة جرد المستودع",
+    "inventoryReviewRef": "مستودع رئيسي",
+    "followClient": "متابعة عميل متأخر",
+    "followClientRef": "شركة النور التجارية",
+    "reviewInvoice": "مراجعة فاتورة معلقة",
+    "reviewInvoiceRef": "(INV-2026-01025)",
+    "time1": "10:30 ص",
+    "time2": "11:00 ص",
+    "time3": "12:00 م",
+    "time4": "01:30 م"
+  },
+  "activity": {
+    "title": "النشاط الأخير",
+    "viewAll": "عرض الكل",
+    "payment": "تم تحصيل مبلغ <bold>5,200 ريال</bold> من عميل شركة التجارة",
+    "poApproved": "تم اعتماد طلب شراء <bold>#PO-2026-1548</bold>",
+    "newCustomer": "تم إنشاء عميل جديد شركة المستقبل للتجارة",
+    "time1": "10:45 ص",
+    "time2": "10:20 ص",
+    "time3": "09:15 ص"
+  },
+  "miniStats": {
+    "openOrders": "طلبات مفتوحة",
+    "pendingShipments": "شحنات معلقة",
+    "pendingInventory": "جرد بانتظار الاعتماد",
+    "openReturns": "مرتجعات مفتوحة"
+  },
+  "quickActions": {
+    "title": "إجراءات سريعة",
+    "customize": "تخصيص",
+    "viewAll": "عرض جميع الإجراءات",
+    "supplier": "مورد جديد",
+    "customer": "عميل جديد",
+    "journal": "قيد محاسبي",
+    "purchaseOrder": "أمر شراء",
+    "invoice": "فاتورة جديدة",
+    "collection": "تحصيل"
+  },
+  "common": {
+    "viewAll": "عرض الكل"
+  }
+}

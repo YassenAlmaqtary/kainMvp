@@ -1,0 +1,28 @@
+{
+  "brandName": "KAYAN",
+  "or": "or",
+  "languages": {
+    "ar": "العربية",
+    "en": "English"
+  },
+  "theme": {
+    "enableDark": "Enable dark mode",
+    "enableLight": "Enable light mode"
+  },
+  "validation": {
+    "emailRequired": "Email is required",
+    "emailInvalid": "Please enter a valid email address",
+    "userNameRequired": "Username is required",
+    "passwordRequired": "Password is required",
+    "passwordMinLength": "Password must be at least 6 characters"
+  },
+  "comingSoon": {
+    "description": "This page is under development and will be available soon.",
+    "backToDashboard": "Back to dashboard"
+  },
+  "branch": {
+    "label": "Branch",
+    "change": "Change branch",
+    "active": "Active branch"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "footer": {
+    "vision2030": "Aligned with Vision 2030",
+    "supportTitle": "24/7 technical support",
+    "supportDescription": "A dedicated team always ready to help"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "pos": "Point of Sale",
+    "logout": "Sign out"
+  },
+  "pages": {
+    "login": {
+      "title": "KAYAN - Login | كيان"
+    },
+    "dashboard": {
+      "title": "KAYAN - Dashboard | كيان"
+    },
+    "pos": {
+      "title": "KAYAN - POS | كيان"
+    },
+    "reports": {
+      "title": "KAYAN - Reports | كيان"
+    },
+    "inventory": {
+      "title": "KAYAN - Inventory | كيان"
+    },
+    "settings": {
+      "title": "KAYAN - Settings | كيان"
+    }
+  }
+}

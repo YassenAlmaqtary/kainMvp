@@ -1,0 +1,118 @@
+{
+  "header": {
+    "company": "Company",
+    "companyValue": "Kayan Trading Est.",
+    "branch": "Branch",
+    "branchValue": "Jeddah - Al Rawabi",
+    "device": "Device",
+    "deviceValue": "POS-01",
+    "user": "User",
+    "userValue": "Ahmed Mohamed",
+    "batch": "Batch",
+    "batchValue": "458",
+    "menu": "Menu"
+  },
+  "status": {
+    "zatca": "ZATCA",
+    "connection": "Connection",
+    "printer": "Printer",
+    "scale": "Scale",
+    "cashDrawer": "Cash drawer",
+    "scanner": "Scanner",
+    "connected": "Connected",
+    "open": "Open"
+  },
+  "categories": {
+    "title": "Categories",
+    "all": "All",
+    "drinks": "Beverages",
+    "dryFood": "Dry goods",
+    "fresh": "Fresh products",
+    "dairy": "Dairy & cheese",
+    "frozen": "Frozen",
+    "cleaning": "Cleaning",
+    "personalCare": "Personal care",
+    "household": "Household",
+    "more": "More"
+  },
+  "search": {
+    "placeholder": "Scan barcode or search for a product...",
+    "quickProduct": "Quick product"
+  },
+  "catalog": {
+    "empty": "No products available",
+    "results": "{{count}} results"
+  },
+  "cart": {
+    "title": "Sales cart ( {{count}} items )",
+    "columns": {
+      "index": "#",
+      "item": "Item",
+      "quantity": "Qty",
+      "unit": "Unit",
+      "price": "Price",
+      "discount": "Discount",
+      "total": "Total"
+    },
+    "itemCode": "SKU: {{code}}",
+    "weight": "Weight {{value}} kg",
+    "units": {
+      "piece": "pc",
+      "kg": "kg"
+    },
+    "summary": "Items: {{items}} | Total qty: {{quantity}}",
+    "clear": "Clear cart",
+    "empty": "No items in cart",
+    "increase": "Increase quantity",
+    "decrease": "Decrease quantity"
+  },
+  "products": {
+    "rice": "Abu Kina Rice 5kg",
+    "sugar": "Al Osra Sugar 5kg",
+    "banana": "Bananas per kg"
+  },
+  "quickActions": {
+    "coupon": "Coupon",
+    "reprint": "Reprint",
+    "changePrice": "Change price",
+    "discount": "Discount",
+    "customer": "Customer",
+    "return": "Return",
+    "recall": "Recall"
+  },
+  "quickCategories": {
+    "fastItems": "Quick items",
+    "noBarcode": "No barcode",
+    "meat": "Meat",
+    "bakery": "Bakery",
+    "fruits": "Fruits",
+    "vegetables": "Vegetables",
+    "eggs": "Eggs"
+  },
+  "invoice": {
+    "title": "Invoice summary",
+    "subtotal": "Items subtotal",
+    "discounts": "Total discounts",
+    "tax": "Tax (15%)",
+    "grandTotal": "Total incl. tax",
+    "paid": "Paid",
+    "remaining": "Remaining",
+    "currency": "SAR",
+    "pay": "Pay",
+    "paymentSuccess": "Payment completed successfully",
+    "paymentInsufficient": "Paid amount is less than the total",
+    "paymentEmpty": "Cart is empty"
+  },
+  "keypad": {
+    "backspace": "Backspace",
+    "clear": "Clear",
+    "multiply": "Multiply",
+    "sound": "Sound"
+  },
+  "footer": {
+    "help": "Request help",
+    "notes": "Notes",
+    "openDrawer": "Open cash drawer",
+    "power": "Power off"
+  }
+}

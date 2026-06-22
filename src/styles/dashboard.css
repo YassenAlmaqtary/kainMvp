@@ -1,0 +1,67 @@
+.dashboard-shell {
+  background-color: var(--color-kayan-erp-bg);
+  min-height: 100vh;
+}
+
+.dark .dashboard-shell {
+  background-color: #0f172a;
+}
+
+.dashboard-sidebar {
+  background-color: #001b3d;
+  width: 16rem;
+}
+
+.dashboard-sidebar--collapsed {
+  width: 4.5rem;
+}
+
+.dashboard-nav-active {
+  background-color: #0055ff;
+  color: #ffffff;
+}
+
+.dashboard-hero {
+  background:
+    linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.7) 50%, rgba(255, 255, 255, 0) 100%),
+    var(--dashboard-hero-image) center / cover no-repeat;
+}
+
+.dark .dashboard-hero {
+  background:
+    linear-gradient(90deg, rgba(15, 23, 42, 0.95) 0%, rgba(15, 23, 42, 0.7) 50%, rgba(15, 23, 42, 0) 100%),
+    var(--dashboard-hero-image) center / cover no-repeat;
+}
+
+.dashboard-card {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 1rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.dark .dashboard-card {
+  background-color: #1e293b;
+  border-color: #334155;
+}
+
+.dashboard-custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.dashboard-custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.dashboard-custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 10px;
+}
+
+.dark .dashboard-custom-scrollbar::-webkit-scrollbar-track {
+  background: #334155;
+}
+
+.dark .dashboard-custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #64748b;
+}

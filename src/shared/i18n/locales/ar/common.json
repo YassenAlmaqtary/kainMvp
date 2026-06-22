@@ -1,0 +1,28 @@
+{
+  "brandName": "كيان",
+  "or": "أو",
+  "languages": {
+    "ar": "العربية",
+    "en": "English"
+  },
+  "theme": {
+    "enableDark": "تفعيل الوضع الداكن",
+    "enableLight": "تفعيل الوضع الفاتح"
+  },
+  "validation": {
+    "emailRequired": "البريد الإلكتروني مطلوب",
+    "emailInvalid": "يرجى إدخال بريد إلكتروني صحيح",
+    "userNameRequired": "اسم المستخدم مطلوب",
+    "passwordRequired": "كلمة المرور مطلوبة",
+    "passwordMinLength": "كلمة المرور يجب أن تكون 6 أحرف على الأقل"
+  },
+  "comingSoon": {
+    "description": "هذه الصفحة قيد التطوير وستتوفر قريباً.",
+    "backToDashboard": "العودة للوحة التحكم"
+  },
+  "branch": {
+    "label": "الفرع",
+    "change": "تغيير الفرع",
+    "active": "الفرع النشط"
+  }
+}

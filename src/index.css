@@ -1,0 +1,140 @@
+@import "tailwindcss";
+
+/* Use .dark class on <html> (not prefers-color-scheme) */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@import "./styles/pos.css";
+@import "./styles/dashboard.css";
+
+@theme {
+  --font-sans: "IBM Plex Sans Arabic", sans-serif;
+
+  --color-kayan-blue: #2563eb;
+  --color-kayan-dark-blue: #1e40af;
+  --color-kayan-light-blue: #eff6ff;
+  --color-kayan-bg-gray: #f8fafc;
+
+  /* Kayan POS — from index.html / Stitch */
+  --color-pos-navy: #0a2342;
+  --color-pos-blue: #0066cc;
+  --color-pos-blue-soft: #eff6ff;
+  --color-pos-green: #00a651;
+  --color-pos-red: #e31e24;
+  --color-pos-orange: #f39200;
+  --color-pos-bg: #f4f7f9;
+  --color-pos-border: #e2e8f0;
+
+  /* Kayan ERP Dashboard — Stitch */
+  --color-kayan-erp-dark: #001b3d;
+  --color-kayan-erp-blue: #0055ff;
+  --color-kayan-erp-bg: #f8fafc;
+}
+
+body {
+  background: radial-gradient(circle at 30% 50%, #f0f7ff 0%, #e5eaf2 100%);
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-family: var(--font-sans);
+}
+
+.dark body {
+  background: radial-gradient(circle at 30% 50%, #0f172a 0%, #020617 100%);
+}
+
+/* POS page background */
+html.pos-active body {
+  background: #f4f7f9;
+}
+
+.dark html.pos-active body {
+  background: #0f172a;
+}
+
+/* POS dark mode — panels & content areas */
+.dark .pos-shell {
+  background-color: #0f172a;
+  color-scheme: dark;
+}
+
+.dark .pos-status-bar {
+  background-color: #1e293b;
+  border-bottom-color: #334155;
+}
+
+.dark .pos-shell .bg-white {
+  background-color: #1e293b;
+}
+
+.dark .pos-shell .bg-slate-50 {
+  background-color: #0f172a;
+}
+
+.dark .pos-shell .border-pos-border,
+.dark .pos-shell .border-slate-50,
+.dark .pos-shell .border-slate-100 {
+  border-color: #334155;
+}
+
+.dark .pos-shell .text-slate-600,
+.dark .pos-shell .text-slate-500,
+.dark .pos-shell .text-slate-400 {
+  color: #94a3b8;
+}
+
+.dark .pos-shell .divide-slate-100 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #334155;
+}
+
+.dark .pos-shell .hover\:bg-slate-50:hover {
+  background-color: #334155;
+}
+
+.dark .pos-shell input {
+  background-color: #1e293b;
+  color: #f1f5f9;
+  border-color: #334155;
+}
+
+.dark .pos-shell .pos-category-inactive,
+.dark .pos-shell button.text-slate-600 {
+  color: #cbd5e1;
+}
+
+@layer components {
+  .glass-card {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.05);
+  }
+
+  .dark .glass-card {
+    background: rgba(15, 23, 42, 0.95);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+  }
+
+  .feature-card {
+    background: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    transition: all 0.3s ease;
+  }
+
+  .feature-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(37, 99, 235, 0.1);
+  }
+
+  .dark .feature-card {
+    background: rgba(30, 41, 59, 0.6);
+    border-color: rgba(51, 65, 85, 0.8);
+  }
+
+  .dashboard-preview {
+    transform: perspective(1000px) rotateY(5deg) rotateX(2deg);
+    box-shadow: -20px 20px 60px rgba(0, 0, 0, 0.1);
+  }
+
+  .mobile-preview {
+    transform: perspective(1000px) rotateY(-5deg) translateZ(50px);
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.1);
+  }
+}
