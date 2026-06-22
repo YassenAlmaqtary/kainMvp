@@ -10,4 +10,11 @@ export const queryKeys = {
     all: ['auth'] as const,
     currentUser: () => [...queryKeys.auth.all, 'currentUser'] as const,
   },
+  crm: {
+    all: ['crm'] as const,
+    customers: () => [...queryKeys.crm.all, 'customers'] as const,
+    customer: (id: number) => [...queryKeys.crm.all, 'customer', id] as const,
+    groups: () => [...queryKeys.crm.all, 'groups'] as const,
+    salesmen: () => [...queryKeys.crm.all, 'salesmen'] as const,
+  },
 } as const

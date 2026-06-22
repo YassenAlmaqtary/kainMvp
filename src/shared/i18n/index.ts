@@ -1,11 +1,13 @@
 import i18n from 'i18next'
 import { initReactI18next } from 'react-i18next'
+import arCrm from './locales/ar/crm.json'
 import arCommon from './locales/ar/common.json'
 import arLayout from './locales/ar/layout.json'
 import arLogin from './locales/ar/login.json'
 import arDashboard from './locales/ar/dashboard.json'
 import arMarketing from './locales/ar/marketing.json'
 import arPos from './locales/ar/pos.json'
+import enCrm from './locales/en/crm.json'
 import enCommon from './locales/en/common.json'
 import enDashboard from './locales/en/dashboard.json'
 import enLayout from './locales/en/layout.json'
@@ -47,6 +49,7 @@ i18n.use(initReactI18next).init({
       marketing: arMarketing,
       pos: arPos,
       dashboard: arDashboard,
+      crm: arCrm,
     },
     en: {
       common: enCommon,
@@ -55,6 +58,7 @@ i18n.use(initReactI18next).init({
       marketing: enMarketing,
       pos: enPos,
       dashboard: enDashboard,
+      crm: enCrm,
     },
   },
   lng: initialLanguage,

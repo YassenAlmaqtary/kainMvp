@@ -1,0 +1,152 @@
+{
+  "title": "Customer Management",
+  "breadcrumb": {
+    "home": "Home",
+    "current": "Customer Management"
+  },
+  "actions": {
+    "new": "New Customer",
+    "import": "Import Customers",
+    "export": "Export Customers",
+    "more": "More",
+    "importSoon": "Coming soon"
+  },
+  "kpis": {
+    "total": "Total Customers",
+    "active": "Active Customers",
+    "newMonth": "New This Month",
+    "installment": "Installment / Credit",
+    "late": "Late Customers",
+    "inactive": "Inactive Customers",
+    "ofTotal": "{{value}} of total"
+  },
+  "risks": {
+    "title": "Customer Risk Center",
+    "viewAll": "View all",
+    "viewDetails": "View details",
+    "late": "Late customers",
+    "lateDesc": "Past due payments",
+    "credit": "Credit limit exceeded",
+    "creditDesc": "Balance above allowed limit",
+    "noPurchase": "No purchase in 90 days",
+    "noPurchaseDesc": "No orders in 3 months",
+    "suspended": "Temporarily suspended",
+    "suspendedDesc": "Accounts on hold",
+    "review": "Under review",
+    "reviewDesc": "Pending approval"
+  },
+  "insights": {
+    "best": "Best customer this month",
+    "trend": "Trend alert",
+    "followUp": "Follow-up alert",
+    "purchaseAmount": "SAR {{amount}}",
+    "trendMessage": "{{value}} increase in late customers vs last month",
+    "followUpMessage": "{{value}} customers with no purchase in 90 days — follow up needed"
+  },
+  "filters": {
+    "title": "Search & Filtering",
+    "quickSearch": "Quick search",
+    "advanced": "Advanced filters",
+    "name": "Customer name",
+    "namePlaceholder": "Search by name...",
+    "phone": "Phone number",
+    "code": "Customer code",
+    "taxId": "Tax ID",
+    "branch": "Branch",
+    "group": "Customer group",
+    "salesRep": "Sales rep",
+    "customerType": "Customer type",
+    "status": "Status",
+    "creditStatus": "Credit status",
+    "city": "City",
+    "all": "All",
+    "search": "Search",
+    "reset": "Reset"
+  },
+  "customerTypes": {
+    "individual": "Individuals",
+    "company": "Companies",
+    "government": "Government",
+    "other": "Other"
+  },
+  "status": {
+    "active": "Active",
+    "suspended": "Suspended",
+    "blocked": "Blocked",
+    "under_review": "Under review"
+  },
+  "creditStatus": {
+    "within_limit": "Within limit",
+    "near_limit": "Near limit",
+    "exceeded": "Exceeded"
+  },
+  "table": {
+    "displayOptions": "Display options",
+    "show": "Show",
+    "entries": "entries",
+    "total": "{{count}} customers total",
+    "code": "Code",
+    "name": "Name",
+    "phone": "Phone",
+    "city": "City",
+    "transactions": "Transactions",
+    "balance": "Balance due",
+    "lastPurchase": "Last purchase",
+    "status": "Status",
+    "actions": "Actions",
+    "edit": "Edit",
+    "view": "View",
+    "whatsapp": "WhatsApp",
+    "more": "More",
+    "delete": "Delete",
+    "loading": "Loading...",
+    "empty": "No matching results",
+    "pageInfo": "{{from}}–{{to}} of {{total}}",
+    "prev": "Previous",
+    "next": "Next"
+  },
+  "alerts": {
+    "title": "Quick alerts"
+  },
+  "distribution": {
+    "title": "Customer distribution",
+    "individual": "Individuals",
+    "company": "Companies",
+    "government": "Government",
+    "other": "Other"
+  },
+  "form": {
+    "createTitle": "Add new customer",
+    "editTitle": "Edit customer",
+    "create": "Create",
+    "save": "Save",
+    "cancel": "Cancel",
+    "close": "Close",
+    "edit": "Edit",
+    "delete": "Delete",
+    "deleteConfirm": "Delete customer \"{{name}}\"? This cannot be undone.",
+    "customerName": "Customer name",
+    "customerNameEn": "English name",
+    "phone": "Phone",
+    "group": "Customer group",
+    "selectGroup": "Select group",
+    "salesman": "Sales rep",
+    "none": "None",
+    "creditLimit": "Credit limit",
+    "taxNumber": "Tax ID",
+    "crNumber": "CR number",
+    "address": "Address",
+    "notes": "Notes",
+    "isActive": "Active customer",
+    "dateCreated": "Created at",
+    "errors": {
+      "nameRequired": "Customer name is required",
+      "groupRequired": "Customer group is required"
+    }
+  },
+  "errors": {
+    "loadFailed": "Failed to load customers from API",
+    "tryAgain": "Check your API connection and try again",
+    "retry": "Retry"
+  }
+}

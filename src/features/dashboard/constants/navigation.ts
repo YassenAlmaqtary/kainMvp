@@ -28,7 +28,7 @@ export const DASHBOARD_NAV_ITEMS: DashboardNavItem[] = [
   { id: 'inventory', labelKey: 'nav.inventory', icon: Package, to: '/inventory' },
   { id: 'finance', labelKey: 'nav.finance', icon: Calculator },
   { id: 'pos', labelKey: 'nav.pos', icon: Monitor, to: '/pos' },
-  { id: 'crm', labelKey: 'nav.crm', icon: Users },
+  { id: 'crm', labelKey: 'nav.crm', icon: Users, to: '/crm' },
   { id: 'hr', labelKey: 'nav.hr', icon: UserCog },
   { id: 'reports', labelKey: 'nav.reports', icon: BarChart3, to: '/reports' },
   { id: 'approvals', labelKey: 'nav.approvals', icon: CheckCircle, badge: 12 },

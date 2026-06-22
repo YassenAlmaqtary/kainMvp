@@ -28,3 +28,10 @@ export type ProductLookupDto = Schemas['KianERPApi.DTOs.ProductLookupDto']
 export type ProductResponseDto = Schemas['KianERPApi.DTOs.Inventory.ProductResponseDto']
 export type ProductUnitDto = Schemas['KianERPApi.DTOs.Inventory.ProductUnitDto']
 export type ProductSearchResultDto = Schemas['KianERPApi.DTOs.Inventory.ProductSearchResultDto']
+
+// Customers (CRM)
+export type CustomerDto = Schemas['KianERPApi.DTOs.SalesAndCustomers.CustomerDto']
+export type CustomerGroupDto = Schemas['KianERPApi.DTOs.SalesAndCustomers.CustomerGroupDto']
+export type SalesmanDto = Schemas['KianERPApi.DTOs.SalesAndCustomers.SalesmanDto']
+export type CreateCustomerDto = Schemas['KianERPApi.DTOs.SalesAndCustomers.CreateCustomerDto']
+export type UpdateCustomerDto = Schemas['KianERPApi.DTOs.SalesAndCustomers.UpdateCustomerDto']

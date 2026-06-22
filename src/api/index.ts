@@ -23,6 +23,11 @@ export type {
   RefreshTokenRequestDto,
   UserBranchDto,
   UserResponseDto,
+  CustomerDto,
+  CustomerGroupDto,
+  SalesmanDto,
+  CreateCustomerDto,
+  UpdateCustomerDto,
 } from './types'
 export {
   callApi,
@@ -38,3 +43,4 @@ export { UI_PAGE_BINDINGS } from './registry/wired'
 export type { WiredEndpointKey } from './registry/wired'
 export { mapAuthToSession, mapUserFromAuth, mapUserFromProfile } from './mappers/auth.mapper'
 export { mapProductLookupToPos, mapProductResponseToPos } from './mappers/product.mapper'
+export { mapCustomerDtoToRow, mapCustomerDtosToRows, filterCustomers } from './mappers/customer.mapper'

@@ -27,6 +27,9 @@
     },
     "settings": {
       "title": "KAYAN - Settings | كيان"
+    },
+    "crm": {
+      "title": "KAYAN - Customer Management | كيان"
     }
   }
 }

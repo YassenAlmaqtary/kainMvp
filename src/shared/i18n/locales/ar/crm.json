@@ -1,0 +1,152 @@
+{
+  "title": "إدارة العملاء",
+  "breadcrumb": {
+    "home": "الرئيسية",
+    "current": "إدارة العملاء"
+  },
+  "actions": {
+    "new": "عميل جديد",
+    "import": "استيراد العملاء",
+    "export": "تصدير العملاء",
+    "more": "المزيد",
+    "importSoon": "قريباً"
+  },
+  "kpis": {
+    "total": "إجمالي العملاء",
+    "active": "العملاء النشطون",
+    "newMonth": "عملاء جدد هذا الشهر",
+    "installment": "عملاء التقسيط / الآجل",
+    "late": "العملاء المتأخرون",
+    "inactive": "العملاء غير النشطين",
+    "ofTotal": "{{value}} من الإجمالي"
+  },
+  "risks": {
+    "title": "مركز مخاطر العملاء",
+    "viewAll": "عرض الكل",
+    "viewDetails": "عرض التفاصيل",
+    "late": "عملاء متأخرون",
+    "lateDesc": "تجاوزوا موعد السداد",
+    "credit": "تجاوز حد الائتمان",
+    "creditDesc": "رصيد أعلى من الحد المسموح",
+    "noPurchase": "بدون مشتريات 90 يوم",
+    "noPurchaseDesc": "لم يشتروا منذ 3 أشهر",
+    "suspended": "موقوفون مؤقتاً",
+    "suspendedDesc": "حسابات معلقة",
+    "review": "قيد المراجعة",
+    "reviewDesc": "بانتظار الموافقة"
+  },
+  "insights": {
+    "best": "أفضل عميل هذا الشهر",
+    "trend": "تنبيه الاتجاه",
+    "followUp": "تنبيه المتابعة",
+    "purchaseAmount": "{{amount}} ر.س",
+    "trendMessage": "ارتفاع بنسبة {{value}} في العملاء المتأخرين مقارنة بالشهر الماضي",
+    "followUpMessage": "{{value}} عميل لم يشتروا منذ 90 يوماً — يحتاجون متابعة"
+  },
+  "filters": {
+    "title": "البحث والتصفية",
+    "quickSearch": "بحث سريع",
+    "advanced": "فلاتر متقدمة",
+    "name": "اسم العميل",
+    "namePlaceholder": "ابحث بالاسم...",
+    "phone": "رقم الجوال",
+    "code": "رمز العميل",
+    "taxId": "الرقم الضريبي",
+    "branch": "الفرع",
+    "group": "مجموعة العملاء",
+    "salesRep": "مندوب المبيعات",
+    "customerType": "نوع العميل",
+    "status": "الحالة",
+    "creditStatus": "حالة الائتمان",
+    "city": "المدينة",
+    "all": "الكل",
+    "search": "بحث",
+    "reset": "إعادة تعيين"
+  },
+  "customerTypes": {
+    "individual": "أفراد",
+    "company": "شركات",
+    "government": "حكومي",
+    "other": "أخرى"
+  },
+  "status": {
+    "active": "نشط",
+    "suspended": "موقوف مؤقتاً",
+    "blocked": "محظور",
+    "under_review": "قيد المراجعة"
+  },
+  "creditStatus": {
+    "within_limit": "ضمن الحد",
+    "near_limit": "قريب من الحد",
+    "exceeded": "تجاوز الحد"
+  },
+  "table": {
+    "displayOptions": "خيارات العرض",
+    "show": "عرض",
+    "entries": "سجل",
+    "total": "إجمالي {{count}} عميل",
+    "code": "رمز العميل",
+    "name": "اسم العميل",
+    "phone": "رقم الجوال",
+    "city": "المدينة",
+    "transactions": "إجمالي المعاملات",
+    "balance": "الرصيد المستحق",
+    "lastPurchase": "آخر عملية شراء",
+    "status": "الحالة",
+    "actions": "إجراءات",
+    "edit": "تعديل",
+    "view": "عرض",
+    "whatsapp": "واتساب",
+    "more": "المزيد",
+    "delete": "حذف",
+    "loading": "جاري التحميل...",
+    "empty": "لا توجد نتائج مطابقة",
+    "pageInfo": "{{from}}–{{to}} من {{total}}",
+    "prev": "السابق",
+    "next": "التالي"
+  },
+  "alerts": {
+    "title": "تنبيهات سريعة"
+  },
+  "distribution": {
+    "title": "توزيع العملاء",
+    "individual": "أفراد",
+    "company": "شركات",
+    "government": "حكومي",
+    "other": "أخرى"
+  },
+  "form": {
+    "createTitle": "إضافة عميل جديد",
+    "editTitle": "تعديل بيانات العميل",
+    "create": "إنشاء",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "close": "إغلاق",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "deleteConfirm": "هل تريد حذف العميل «{{name}}»؟ لا يمكن التراجع عن هذا الإجراء.",
+    "customerName": "اسم العميل",
+    "customerNameEn": "الاسم بالإنجليزية",
+    "phone": "رقم الجوال",
+    "group": "مجموعة العملاء",
+    "selectGroup": "اختر المجموعة",
+    "salesman": "مندوب المبيعات",
+    "none": "بدون",
+    "creditLimit": "حد الائتمان",
+    "taxNumber": "الرقم الضريبي",
+    "crNumber": "السجل التجاري",
+    "address": "العنوان",
+    "notes": "ملاحظات",
+    "isActive": "عميل نشط",
+    "dateCreated": "تاريخ الإنشاء",
+    "errors": {
+      "nameRequired": "اسم العميل مطلوب",
+      "groupRequired": "مجموعة العملاء مطلوبة"
+    }
+  },
+  "errors": {
+    "loadFailed": "تعذّر تحميل العملاء من الخادم",
+    "tryAgain": "تحقق من الاتصال بـ API ثم أعد المحاولة",
+    "retry": "إعادة المحاولة"
+  }
+}

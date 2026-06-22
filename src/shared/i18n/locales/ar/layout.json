@@ -27,6 +27,9 @@
     },
     "settings": {
       "title": "كيان - الإعدادات | KAYAN Settings"
+    },
+    "crm": {
+      "title": "كيان - إدارة العملاء | KAYAN CRM"
     }
   }
 }
