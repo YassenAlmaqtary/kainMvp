@@ -2,20 +2,26 @@ import { Package, Search } from 'lucide-react'
 import { POS_PRODUCT_PLACEHOLDER } from '@/features/pos/constants/assets'
 import { useAppTranslation } from '@/shared/hooks/useLanguage'
 import type { PosProduct } from '@/features/pos/types'
+import { cn } from '@/shared/utils/cn'
 import { formatAmount } from '@/shared/utils/format'
 
 interface PosProductGridProps {
   products: PosProduct[]
   isLoading?: boolean
   onSelect: (product: PosProduct) => void
+  className?: string
 }
 
-export function PosProductGrid({ products, isLoading, onSelect }: PosProductGridProps) {
+export function PosProductGrid({ products, isLoading, onSelect, className }: PosProductGridProps) {
   const { t } = useAppTranslation('pos')
+  const gridClassName = cn(
+    'grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-7 gap-2 sm:gap-3 shrink-0 pb-1 max-h-28 sm:max-h-32 lg:max-h-36 overflow-y-auto',
+    className,
+  )
 
   if (isLoading) {
     return (
-      <div className="grid grid-cols-4 sm:grid-cols-5 lg:grid-cols-7 gap-3 shrink-0 pb-1">
+      <div className={gridClassName}>
         {Array.from({ length: 7 }).map((_, i) => (
           <div key={i} className="h-20 rounded-lg bg-slate-100 animate-pulse" />
         ))}
@@ -24,13 +30,12 @@ export function PosProductGrid({ products, isLoading, onSelect }: PosProductGrid
   }
 
   if (products.length === 0) {
-    return (
-      <p className="text-center text-xs text-slate-400 py-4 shrink-0">{t('catalog.empty')}</p>
-    )
+    if (className?.includes('hidden')) return null
+    return <p className="text-center text-xs text-slate-400 py-4 shrink-0">{t('catalog.empty')}</p>
   }
 
   return (
-    <div className="grid grid-cols-4 sm:grid-cols-5 lg:grid-cols-7 gap-3 shrink-0 pb-1 max-h-36 overflow-y-auto">
+    <div className={gridClassName}>
       {products.slice(0, 21).map((product) => (
         <button
           key={product.id}
@@ -65,7 +70,7 @@ export function PosCatalogSearch({ value, onChange, onScanSubmit, resultCount }:
     <div className="flex gap-2 shrink-0">
       <div className="flex-1 relative">
         <input
-          className="w-full h-12 pe-12 ps-12 rounded-lg border border-pos-border focus:ring-2 focus:ring-pos-blue focus:border-pos-blue outline-none bg-white"
+          className="w-full h-10 sm:h-12 pe-10 sm:pe-12 ps-10 sm:ps-12 text-sm sm:text-base rounded-lg border border-pos-border focus:ring-2 focus:ring-pos-blue focus:border-pos-blue outline-none bg-white"
           placeholder={t('search.placeholder')}
           value={value}
           onChange={(e) => onChange(e.target.value)}

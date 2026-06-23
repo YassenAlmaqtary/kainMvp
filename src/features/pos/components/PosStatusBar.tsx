@@ -5,7 +5,7 @@ export function PosStatusBar() {
   const { t } = useAppTranslation('pos')
 
   return (
-    <section className="pos-status-bar h-14 flex items-center px-4 gap-4 overflow-x-auto pos-hide-scrollbar shrink-0">
+    <section className="pos-status-bar h-11 lg:h-14 flex items-center px-3 lg:px-4 gap-2 lg:gap-4 overflow-x-auto pos-hide-scrollbar shrink-0">
       {POS_STATUS_ITEMS.map((item, index) => {
         const Icon = item.icon
         const isGreen = item.tone === 'green'

@@ -17,12 +17,12 @@ export function PosCategorySidebar({ activeId, onSelect, apiGroups }: PosCategor
       : POS_CATEGORIES.map((c) => ({ id: c.id, label: t(c.labelKey) }))
 
   return (
-    <aside className="pos-sidebar-left bg-white border-e border-pos-border flex flex-col overflow-y-auto">
-      <div className="p-3 border-b border-pos-border flex items-center justify-between shrink-0">
+    <aside className="pos-sidebar-left bg-white border-b lg:border-b-0 lg:border-e border-pos-border flex flex-col lg:overflow-y-auto shrink-0">
+      <div className="p-2 lg:p-3 border-b border-pos-border flex items-center justify-between shrink-0">
         <span className="font-bold text-sm">{t('categories.title')}</span>
-        <Search className="w-4 h-4 text-slate-400" aria-hidden />
+        <Search className="w-4 h-4 text-slate-400 shrink-0" aria-hidden />
       </div>
-      <div className="flex flex-col">
+      <div className="pos-category-list pos-hide-scrollbar">
         {categories.map((category) => {
           const isActive = activeId === category.id
 
@@ -31,7 +31,7 @@ export function PosCategorySidebar({ activeId, onSelect, apiGroups }: PosCategor
               key={category.id}
               type="button"
               onClick={() => onSelect(category.id)}
-              className={`flex flex-col items-center gap-1 p-3 border-b border-slate-50 transition-colors ${
+              className={`flex flex-row lg:flex-col items-center gap-1.5 lg:gap-1 px-3 py-2 lg:p-3 min-w-[4.5rem] lg:min-w-0 shrink-0 lg:shrink border-b-0 lg:border-b border-s lg:border-s-0 border-slate-50 transition-colors ${
                 isActive ? 'pos-category-active' : 'text-slate-600 hover:bg-slate-50'
               }`}
             >
@@ -42,7 +42,7 @@ export function PosCategorySidebar({ activeId, onSelect, apiGroups }: PosCategor
                   {category.label.slice(0, 2)}
                 </span>
               )}
-              <span className="text-xs leading-tight text-center line-clamp-2">{category.label}</span>
+              <span className="text-xs leading-tight text-center line-clamp-1 lg:line-clamp-2 whitespace-nowrap lg:whitespace-normal">{category.label}</span>
             </button>
           )
         })}

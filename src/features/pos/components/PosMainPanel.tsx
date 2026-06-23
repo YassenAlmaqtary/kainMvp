@@ -139,7 +139,7 @@ export function PosMainPanel({ products, productsLoading, categoryId }: PosMainP
   }
 
   return (
-    <main className="pos-content-middle p-4 gap-4">
+    <main className="pos-content-middle p-2 sm:p-3 lg:p-4 gap-2 sm:gap-3 lg:gap-4">
       <PosCatalogSearch
         value={search}
         onChange={setSearch}
@@ -167,11 +167,11 @@ export function PosMainPanel({ products, productsLoading, categoryId }: PosMainP
           <ChevronDown className="w-5 h-5 opacity-80" aria-hidden />
         </div>
 
-        <div className="flex-1 overflow-y-auto min-h-0">
+        <div className="flex-1 overflow-y-auto min-h-0 overflow-x-auto">
           {filteredCartItems.length === 0 ? (
-            <p className="p-8 text-center text-slate-400 text-sm">{t('cart.empty')}</p>
+            <p className="p-6 lg:p-8 text-center text-slate-400 text-sm">{t('cart.empty')}</p>
           ) : (
-            <table className="w-full text-sm text-end">
+            <table className="w-full text-sm text-end min-w-[36rem]">
               <thead className="bg-slate-50 text-slate-500 sticky top-0 z-10">
                 <tr>
                   <th className="p-3 font-medium text-start">{t('cart.columns.index')}</th>
@@ -217,7 +217,7 @@ export function PosMainPanel({ products, productsLoading, categoryId }: PosMainP
         </div>
       </div>
 
-      <div className="grid grid-cols-7 gap-3 shrink-0">
+      <div className="grid grid-cols-4 sm:grid-cols-5 md:grid-cols-7 gap-1.5 sm:gap-2 lg:gap-3 shrink-0">
         {POS_QUICK_ACTIONS.map((action) => {
           const Icon = action.icon
           return (
@@ -226,8 +226,8 @@ export function PosMainPanel({ products, productsLoading, categoryId }: PosMainP
               type="button"
               className={cn('pos-action-grid-btn rounded-lg border', actionVariants[action.variant])}
             >
-              <Icon className="w-6 h-6 mb-1" aria-hidden />
-              <span className="text-[10px] font-bold leading-tight">{t(action.labelKey)}</span>
+              <Icon className="w-5 h-5 lg:w-6 lg:h-6 mb-0.5 lg:mb-1" aria-hidden />
+              <span className="text-[9px] lg:text-[10px] font-bold leading-tight">{t(action.labelKey)}</span>
             </button>
           )
         })}
@@ -237,6 +237,7 @@ export function PosMainPanel({ products, productsLoading, categoryId }: PosMainP
         products={catalogProducts}
         isLoading={productsLoading}
         onSelect={addProduct}
+        className="hidden sm:grid"
       />
     </main>
   )

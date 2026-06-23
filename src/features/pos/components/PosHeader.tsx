@@ -107,12 +107,12 @@ export function PosHeader() {
   })
 
   return (
-    <header className="pos-header bg-pos-navy text-white h-16 flex items-center px-4 shrink-0 shadow-md z-20">
-      <div className="flex items-center gap-4 w-1/4 min-w-[140px]">
-        <img alt="KAYAN" className="h-10 object-contain brightness-0 invert" src={POS_LOGO_URL} />
+    <header className="pos-header bg-pos-navy text-white h-12 lg:h-16 flex items-center px-3 lg:px-4 shrink-0 shadow-md z-20">
+      <div className="flex items-center gap-2 lg:gap-4 shrink-0">
+        <img alt="KAYAN" className="h-8 lg:h-10 object-contain brightness-0 invert" src={POS_LOGO_URL} />
       </div>
 
-      <div className="flex-1 flex justify-center items-center gap-6 text-xs overflow-x-auto pos-hide-scrollbar px-2">
+      <div className="hidden md:flex flex-1 justify-center items-center gap-4 lg:gap-6 text-xs overflow-x-auto pos-hide-scrollbar px-2 min-w-0">
         <div className="text-center px-4 border-s pos-header-divider shrink-0">
           <p className="pos-header-meta-label">{t('header.company')}</p>
           <p className="pos-header-meta-value">{t('header.companyValue')}</p>
@@ -137,10 +137,10 @@ export function PosHeader() {
         </div>
       </div>
 
-      <div className="w-1/4 min-w-[160px] flex items-center justify-end gap-4">
-        <div className="text-end border-s pos-header-divider ps-4 me-4 hidden sm:block">
-          <div className="pos-header-time text-lg font-bold leading-tight">{time}</div>
-          <div className="pos-header-date text-[10px]">{date}</div>
+      <div className="flex-1 md:flex-none flex items-center justify-end gap-2 lg:gap-4 shrink-0 ms-auto">
+        <div className="text-end border-s pos-header-divider ps-2 lg:ps-4 lg:me-4">
+          <div className="pos-header-time text-sm lg:text-lg font-bold leading-tight">{time}</div>
+          <div className="pos-header-date text-[9px] lg:text-[10px] hidden sm:block">{date}</div>
         </div>
         <PosHeaderMenu />
       </div>
